@@ -1,0 +1,103 @@
+@font-face {
+    font-family:google;
+    src: url(font.ttf);
+  }
+
+@font-face {
+   font-family:google2;
+   src: url(fontt.ttf);
+}  
+
+@font-face {
+    font-family:pixel;
+    src: url(pixel.ttf);
+ }
+
+html{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link{display:inline;
+    padding-left:10px;
+    margin:0px;
+    list-style-type: none;}
+
+.linkk{display:inline;
+      padding-left:10px;
+      margin:0px;
+      list-style-type: none;}   
+
+nav{background-color:#cfc5bc;
+   margin:10px;
+   margin-top: 20px;
+   padding: 5px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px gray;
+}    
+    
+a{color:black;
+  text-decoration:none;
+}
+
+.logo{
+    font-family:google;
+    display: inline;
+    font-size: 40px;
+    margin-right: 80%;
+    padding-left: 10px;
+}
+
+h1{display:inline;
+   text-align: center;
+   font-family: google2;
+   font-size:60px;
+   }
+
+center{
+    margin-top: 60px;
+}   
+
+.detail{
+    text-align: left;
+    font-family: google2;
+    font-size: 83px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.detailss{
+    padding-top: 0%;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+article{
+    margin-left:55%;
+    margin-top:10%;
+}
+
+button{
+    font-size: 35px;
+    border-radius: 30px;
+    height: 60px;
+    width:170px;
+    color:black;
+    background-color: #b6ada6;
+    font-family: google2;
+    border: 2px solid black;
+}
+
+button:hover{
+    font-size: 35px;
+    border-radius: 40px;
+    height: 60px;
+    color:white;
+    background-color: #4285F4;
+    font-family: google2;
+    border: 2px solid #4285F4;
+}
